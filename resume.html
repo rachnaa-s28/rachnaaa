@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Resume - Rachana S</title>
+	<style>
+		:root {
+			--navy: #1f2a44;
+			--accent: #2f6fab;
+			--text: #2b2f38;
+			--muted: #6b7280;
+			--line: #dfe3ea;
+			--bg: #eef1f5;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			padding: 40px 16px;
+			background: var(--bg);
+			color: var(--text);
+			font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+			font-size: 15px;
+			line-height: 1.65;
+		}
+
+		.container {
+			max-width: 860px;
+			margin: 0 auto;
+			background: #ffffff;
+			border-radius: 6px;
+			overflow: hidden;
+			box-shadow: 0 6px 24px rgba(31, 42, 68, 0.12);
+		}
+
+		/* Header */
+		header {
+			background: var(--navy);
+			color: #ffffff;
+			padding: 36px 44px 30px;
+			border-bottom: 5px solid var(--accent);
+		}
+
+		header h1 {
+			margin: 0 0 4px;
+			font-size: 2.2rem;
+			font-weight: 600;
+			letter-spacing: 0.5px;
+		}
+
+		header p {
+			margin: 0;
+			color: #d6deec;
+			font-size: 1.05rem;
+		}
+
+		header p.contact {
+			margin-top: 10px;
+			font-size: 0.9rem;
+			color: #aebbd3;
+		}
+
+		/* Sections */
+		section {
+			padding: 22px 44px 6px;
+		}
+
+		section:last-child {
+			padding-bottom: 30px;
+		}
+
+		h2 {
+			margin: 0 0 12px;
+			padding-bottom: 6px;
+			font-size: 0.95rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 1.6px;
+			color: var(--navy);
+			border-bottom: 2px solid var(--line);
+		}
+
+		h3 {
+			margin: 16px 0 2px;
+			font-size: 1.02rem;
+			font-weight: 600;
+			color: var(--navy);
+		}
+
+		p {
+			margin: 0 0 10px;
+		}
+
+		h3 + p {
+			color: var(--text);
+		}
+
+		/* Skills as tags */
+		ul {
+			list-style: none;
+			margin: 0 0 14px;
+			padding: 0;
+			display: flex;
+			flex-wrap: wrap;
+			gap: 8px;
+		}
+
+		li {
+			padding: 4px 12px;
+			background: #f1f5fb;
+			border: 1px solid #d5e0f0;
+			border-radius: 14px;
+			font-size: 0.86rem;
+			color: var(--navy);
+		}
+
+		/* Responsive */
+		@media (max-width: 600px) {
+			body {
+				padding: 0;
+			}
+
+			.container {
+				border-radius: 0;
+			}
+
+			header,
+			section {
+				padding-left: 22px;
+				padding-right: 22px;
+			}
+
+			header h1 {
+				font-size: 1.7rem;
+			}
+		}
+
+		/* Print / Save as PDF */
+		@media print {
+			body {
+				background: #ffffff;
+				padding: 0;
+			}
+
+			.container {
+				box-shadow: none;
+				border-radius: 0;
+			}
+
+			header {
+				-webkit-print-color-adjust: exact;
+				print-color-adjust: exact;
+			}
+
+			li {
+				-webkit-print-color-adjust: exact;
+				print-color-adjust: exact;
+			}
+
+			section {
+				page-break-inside: avoid;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Rachana S</h1>
+			<p>MCA Student | Aspiring Software Developer &amp; QA Engineer</p>
+			<p class="contact">Mysuru, Karnataka | your.email@example.com | +91 9352114790</p>
+		</header>
+		<section>
+			<h2>Summary</h2>
+			<p>MCA student at Amrita School of Computing with a strong foundation in Java, SQL, Python, and core computer science fundamentals. Hands-on experience in software testing through a QA internship, including test case design, API testing, and bug reporting. Also builds web and desktop projects using React, HTML, and Java, and enjoys turning ideas into polished, user-friendly products. Quick learner with a keen eye for detail and a collaborative approach to problem solving.</p>
+		</section>
+		<section>
+			<h2>Skills</h2>
+			<ul>
+				<li>Java (AWT/Swing, File I/O, Exception Handling)</li>
+				<li>Python (PIL/Pillow, OpenCV)</li>
+				<li>SQL &amp; PL/SQL</li>
+				<li>C Programming</li>
+				<li>HTML, CSS, React</li>
+				<li>Data Structures &amp; Algorithms</li>
+				<li>Operating Systems &amp; Computer Networks</li>
+				<li>Manual Testing &amp; Test Case Writing</li>
+				<li>API Testing (Postman, Swagger/OpenAPI)</li>
+				<li>Katalon</li>
+				<li>Figma &amp; Canva</li>
+				<li>VS Code, NetBeans</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Experience</h2>
+			<h3>QA/Testing Intern, N Ranga Rao &amp; Sons, Mysuru</h3>
+			<p>Tested an internal application, the Quick Commerce Tracker, writing and documenting 88 test cases across three feature areas using Excel templates with Pass/Fail/Not Executed tracking. Identified and reported bugs, including a purchase order expiry date mismatch between the displayed value and backend validation. Performed API testing using Postman and Katalon, applying concepts such as HTTP methods, status codes, and idempotency. Prepared a detailed internship report covering test coverage, key defects, and learnings.</p>
+		</section>
+		<section>
+			<h2>Education</h2>
+			<h3>Master of Computer Applications (MCA)</h3>
+			<p>Amrita School of Computing, Amrita Vishwa Vidyapeetham, Mysuru | Pursuing</p>
+			<h3>Bachelor's Degree</h3>
+			<p>Your college / university name, Graduated 2027</p>
+		</section>
+		<section id="projects">
+			<h2>Projects</h2>
+			<h3>Note to Self (React)</h3>
+			<p>A personal productivity web app with day-type based schedule management, browser notifications, streak tracking, journaling, and rotating affirmations. Deployed on Lovable and installed on mobile as an app.</p>
+			<h3>CPU Scheduling Simulator (Java)</h3>
+			<p>A desktop simulator built in NetBeans demonstrating CPU scheduling algorithms such as FCFS, SJF, Round Robin, and Priority scheduling.</p>
+			<h3>Prison Management System (SQL/PL-SQL)</h3>
+			<p>A database-driven project covering schema design and PL/SQL concepts such as cursors.</p>
+			<h3>Quick Commerce Tracker - QA Project</h3>
+			<p>End-to-end test suite for a logistics and quick-commerce application, including SKU mapping, depot GSTIN mapping, and delisted SKU scenarios.</p>
+		</section>
+	</div>
+</body>
+</html>
